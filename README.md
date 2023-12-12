@@ -1,4 +1,4 @@
-# MSA-K8s-MP4ToMP3-Converter
+# K8s-Python_microservices-MP4ToMP3-Converter
 
 A microservices architecture for converting MP4 files to MP3 files using Kubernetes.
 
@@ -7,9 +7,9 @@ This project uses a modern microservices architecture to provide a scalable and 
 ## Architecture
 
 The architecture of the application is as follows:
+![Copy of Copy of Architecture big data](https://github.com/amalennajar/kubernetes-microservices/assets/121998001/983d0648-c158-4c59-959d-181c19d50644)
 
 - **Authentication Service:** This microservice is responsible for authenticating users and providing them with access tokens.
-- **Download Request Service:** This microservice receives download requests from users and forwards them to the Conversion Service.
 - **Conversion Service:** Responsible for converting MP4 files to MP3 files.
 - **Gateway Service:** Acts as a gateway to other microservices, routing requests to the appropriate service.
 - **Notification Service:** Sends notifications to users when their MP3 file is ready for download.
