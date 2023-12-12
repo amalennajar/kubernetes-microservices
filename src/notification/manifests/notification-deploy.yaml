@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: notification
-          image: aminbenmansour/notification
+          image: amalennj/notification
           envFrom:
             - configMapRef:
                 name: notification-configmap
