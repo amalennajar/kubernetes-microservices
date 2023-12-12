@@ -12,4 +12,4 @@
     password VARCHAR(225) NOT NULL
   );
 
-  INSERT INTO user(email, password) VALUES ('amin@email.com', 'admin')
+  INSERT INTO user(email, password) VALUES ('amal@email.com', 'admin')
