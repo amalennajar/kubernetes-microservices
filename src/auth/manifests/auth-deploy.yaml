@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: amalennajar/auth
+          image: amalennj/auth
           ports:
             - containerPort: 5000
           envFrom:
