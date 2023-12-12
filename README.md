@@ -7,6 +7,7 @@ This project uses a modern microservices architecture to provide a scalable and 
 ## Architecture
 
 The architecture of the application is as follows:
+
 ![Copy of Copy of Architecture big data](https://github.com/amalennajar/kubernetes-microservices/assets/121998001/983d0648-c158-4c59-959d-181c19d50644)
 
 - **Authentication Service:** This microservice is responsible for authenticating users and providing them with access tokens.
