@@ -23,12 +23,11 @@ The lifecycle of generating an MP3 file is as follows:
 
 1. The user sends a download request to the Gateway Service.
 2. The Gateway Service routes the request to the Download Request Service.
-3. The Download Request Service forwards the request to the Conversion Service.
-4. The Conversion Service converts the MP4 file to an MP3 file.
-5. The Conversion Service stores the MP3 file in a storage database.
-6. The Conversion Service sends a notification to the Notification Service.
-7. The Notification Service sends a notification to the user that their MP3 file is ready for download.
-8. The user clicks on the download link in the notification to download their MP3 file.
+3. The Conversion Service converts the MP4 file to an MP3 file.
+4. The Conversion Service stores the MP3 file in a storage database.
+5. The Conversion Service sends a notification to the Notification Service.
+6. The Notification Service sends a notification to the user that their MP3 file is ready for download.
+7. The user clicks on the download link in the notification to download their MP3 file.
 
 ## Usage
 
